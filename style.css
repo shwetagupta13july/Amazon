@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 60px;
+    width: 110px;
+    background-image: url("images/logo.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.border:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.location,
+img {
+    padding-top: 12px;
+    padding-right: 4px;
+}
+
+.location:hover {
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 690px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 150%;
+    font-size: 1rem;
+    border: none;
+}
+
+
+.icon {
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.address {
+    padding: 10px;
+
+}
+
+.address {
+    color: #cccccc;
+    font-size: 1rem;
+}
+
+.cart {
+    font-size: 20px;
+}
+
+
+/* panel */
+
+.panel {
+    height: 30px;
+    background-color: #232f3e;
+    display: flex;
+
+}
+
+.panel,
+li,
+a {
+
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    padding: 8px;
+    align-items: center;
+}
+
+li:hover {
+    border: 1px solid white;
+}
+
+
+.box {
+    margin-top: -350px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box1 {
+    height: 350px;
+    width: 23%;
+    padding-top: 15px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.box2 {
+    height: 350px;
+    width: 23%;
+    padding-top: 15px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.box3 {
+    height: 350px;
+    width: 23%;
+    padding-top: 15px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.box4 {
+    height: 350px;
+    width: 23%;
+    padding-top: 15px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first {
+    width: 46%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+}
+
+.explore {
+    color: rgb(74, 165, 165);
+    padding-left: 10px;
+}
+
+.explore:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+}
+
+.boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.deals {
+    height: 350px;
+    margin: 18px;
+    width: 97%;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.offer {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.today {
+    padding: 15px;
+}
+
+.day {
+    padding-left: 20px;
+}
+
+.off {
+    display: flex;
+    padding: 5px;
+
+}
+
+.beauty {
+    height: 300px;
+    width: 97%;
+    margin: 18px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* footer */
+
+.back {
+    height: 50px;
+    background-color: #3d5068;
+    text-align: center;
+    color: white;
+}
+
+.extra {
+    height: 500px;
+    background-color: #232f3e;
+
+
+}
+
+.write {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 12px;
+    padding: 30px;
+}
+
+.contant {
+    color: white;
+    margin-left: 210px;
+    font-size: 15px;
+
+}
+
+.connect {
+    margin-left: 520px;
+    margin-top: -140px;
+}
+
+.make {
+    margin-left: 830px;
+    margin-top: -100px;
+}
+
+.help {
+    margin-left: 1170px;
+    margin-top: -280px;
+}
+
+.country {
+    color: #f3f3f3;
+    ;
+    width: 65%;
+    padding: 25px;
+    margin-left: 160px;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.state {
+    color: #f3f3f3;
+    width: 15%;
+    padding: 20px;
+    margin-left: 520px;
+    margin-top: -20px;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-evenly;
+}
+
+.bottom{
+background-color: black;
+height: 90px;
+color: white;
+font-size: 13px;
+
+}
+.copywrite{
+margin-left: 500px;
+padding: 10px;
+
+}
+.copy{
+width: 1.5%;
+height: 17px;
+margin-left:120px;
+}
+
